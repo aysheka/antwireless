@@ -1,0 +1,3 @@
+rootProject.name = 'antwireless-parent'
+
+include ":antwireless-commons", ":antwireless-main", ":antwireless-gui"

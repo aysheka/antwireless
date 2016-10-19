@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.fnklabs.td.gui.GuiApplication">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="c7b67" binding="top" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="4829c" binding="menu" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="East"/>
+            <properties>
+              <enabled value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e27e2" class="javax.swing.JButton" binding="devices">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <text value="Refresh devices"/>
+                </properties>
+              </component>
+              <component id="e0bd3" class="javax.swing.JButton" binding="okBtn">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <text value="Workouts"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <hspacer id="de3cb">
+            <constraints border-constraint="Center"/>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="4eb38" binding="middle" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="385c9" binding="footer" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="36ad7" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="acab8" class="javax.swing.JLabel" binding="antStatus">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <text value="Ant+ Status:"/>
+                    </properties>
+                  </component>
+                  <component id="4df0b" class="javax.swing.JLabel" binding="antStatusValue">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <text value="Not connected"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
